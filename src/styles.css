@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.appointment-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.appointment-form button:hover {
+  background: #0056b3;
+}
+
+.appointment-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.appointment-list li {
+  padding: 10px;
+  margin: 10px 0;
+  background: #e9ecef;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-list button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.appointment-list button:hover {
+  background: darkred;
+}
+.appointment-list button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+}
+.appointment-list button:active {
+  background: darkred;
+}
+.appointment-list button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.appointment-list button:disabled:hover {
+  background: #ccc;
+}
+.appointment-list button:disabled:focus {
+  box-shadow: none;
+}
+.appointment-list button:disabled:active {
+  background: #ccc;
+}
+.appointment-list li span {
+  flex-grow: 1;
+  text-align: left;
+}
+.appointment-list li span strong {
+  font-weight: bold;
+}
+.appointment-list li span small {
+  color: #6c757d;
+}
+.appointment-list li span small {
+  font-size: 0.9em;
+}
+.appointment-list li span small:before {
+  content: " - ";
+}
+.appointment-list li span small:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+.appointment-list li span small:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+.appointment-list li span small:hover {
+  text-decoration: underline;
+}
+.appointment-list li span small:active {
+  color: #0056b3;
+}
+.appointment-list li span small:disabled {
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.appointment-list li span small:disabled:active {
+  color: #6c757d;
+}
+
+
